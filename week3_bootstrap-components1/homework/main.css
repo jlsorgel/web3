@@ -1,0 +1,28 @@
+.jumbotron{
+    padding: 8rem 0rem;
+}
+
+section.jumbotron {
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.text-white {
+    color: #ededed !important;
+    font-weight:bold !important;
+}
+
+.bg-transparent {
+    background-color: rgba(64, 20, 20, 0.2) !important;
+   
+}
+
+hr{
+    border-top: 1px solid #795548;
+}
+
+.text-muted {
+    color: #92807a!important;
+}
