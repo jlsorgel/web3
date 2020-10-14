@@ -117,9 +117,13 @@ heading{
 
 /* quote section! */
 
+.fixed-row{
+  background-color: rgba(0,0,0,.55);
+}
+
 
 .fixed{
-  background-image: url(images/package.jpg);
+  background-image: url(images/peppersandspice.jpg);
   position: fixed;
 }
 
@@ -173,4 +177,3 @@ heading{
   }
   
 
-  
