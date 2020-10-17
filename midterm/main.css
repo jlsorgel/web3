@@ -11,6 +11,11 @@ body{
 }
 
 
+.row, .container-fluid {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
 
 .text-dark{
  
@@ -46,6 +51,9 @@ heading{
 }
 
 
+hr {
+  border:2px solid #fff;
+}
 
 /* NAVBAR!!!!! */
 
