@@ -191,19 +191,13 @@ hr {
   }
   
 
-  ul.links{
-    list-style-type:none;
-    display:flex;
-   
-    /* max-width:16rem;
-    margin:0, auto; */
-  }
-
-  ul.social.li{
-    /* margin:0 auto; */
-  }
-
 
   footer a:hover{
     color:red!important;
+  }
+
+
+
+  .lead-vip{
+    font-weight:900!important;
   }
