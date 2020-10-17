@@ -116,14 +116,16 @@ hr {
 
 
 
-/* 3 circle section! */
+/*HOME 3 circle section! */
 
 .rounded-circle{
   object-fit: cover;
 }
 
 
-/* quote section! */
+
+
+/* HOME quote section! */
 
 .fixed-row{
   background-color: rgba(0,0,0,.55);
@@ -134,10 +136,6 @@ hr {
   background-image: url(images/peppersandspice.jpg);
   position: fixed;
 }
-
-
-
-
 
 
 
@@ -169,6 +167,48 @@ hr {
   will-change: transform;
 }
   
+/* ------------------------ */
+
+
+
+/*SERVICES carousel */
+ .carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f00' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+ }
+
+ .carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f00' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.carousel-indicators li {
+  background-color:red;
+}
+
+
+.carousel-caption {
+    position: relative;
+    left: 0;
+  
+}
+
+
+/*SERVICES card section */
+
+ .lead-vip{
+    font-weight:900!important;
+  }
+
+
+
+
+
+
+
+
+
+/* ------------------------ */
+
+
 
 
 /* footer! */
@@ -198,6 +238,5 @@ hr {
 
 
 
-  .lead-vip{
-    font-weight:900!important;
-  }
+ 
+
