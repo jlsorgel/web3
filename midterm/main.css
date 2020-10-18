@@ -50,10 +50,10 @@ heading{
   font-weight: 900;
 }
 
-
+/* 
 hr {
   border:2px solid #fff;
-}
+} */
 
 /* NAVBAR!!!!! */
 
@@ -207,6 +207,13 @@ hr {
 
 
 /* ------------------------ */
+
+/* .first-feature {
+  background-size: cover;
+  background-position: top center;
+
+  background-repeat: no-repeat;
+  } */
 
 
 
