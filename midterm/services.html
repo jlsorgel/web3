@@ -35,6 +35,16 @@
 <body>
 
   <body>
+
+    <div class="alert alert-danger alert-dismissible fade show mb-0 text-center" role="alert">
+      <strong>COVID-19 UPDATE!</strong> Due to COVID-19 you may experience shipping delays
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+
+
+
     <!--NAVBAR!!NAVBAR!!NAVBAR!!NAVBAR!!NAVBAR!!NAVBAR!!-->
 
 
@@ -99,10 +109,11 @@
     <div class="container">
       <div class="row  justify-content-center">
         <div class="col-12 col-lg-6 text-center mt-5">
-          <h1>Step 1.</h1>
-          <h1> Choose your spice level</h1>
+          <h2 class="mb-4 mb-md-5">Step 1. Choose your spice level</h2>
 
-          <div id="myCarousel" class="carousel slide">
+
+
+          <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
             <ol class="carousel-indicators text-warning">
               <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
               <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -114,29 +125,50 @@
             <div class="carousel-inner">
 
               <div class="carousel-item active">
-                <img src="images/3peppers.png" class="img-fluid" alt="3 Peppers">
-                <div class="carousel-caption text-dark pt-0">
-                  <h2>Level 2 HOT</h2>
-                  <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                <img src="images/1pepper.png" class="img-fluid" alt="3 Peppers">
+                <div class="carousel-caption text-dark ">
+                  <h2>Level 1 </h2>
+                  <h2>
+                    </p> MILD</h2>
                 </div>
               </div>
 
 
               <div class="carousel-item">
-                <img src="images/4peppers.png" class="img-fluid" alt="Spicy">
+                <img src="images/2peppers.png" class="img-fluid" alt="Spicy">
                 <div class="carousel-caption text-dark">
-                  <h2>Level 3</h2>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  <h2>Level 2</h2>
+                  <h2>MEDIUM</h2>
                 </div>
               </div>
 
               <div class="carousel-item">
-                <img src="images/4peppers.png" class="img-fluid" alt="Spicy">
+                <img src="images/3-opeppers.png" class=" img-fluid" alt="Spicy">
                 <div class="carousel-caption  text-dark">
-                  <h5>Second slide label</h5>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  <h2>Level 3 </h2>
+                  <h2> HOT</h2>
+
                 </div>
               </div>
+
+              <div class="carousel-item">
+                <img src="images/3peppers.png" class="img-fluid" alt="Spicy">
+                <div class="carousel-caption  text-dark">
+                  <h2>Level 4</h2>
+                  <h2> FIRE</h2>
+
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <img src="images/4pepers.png" class="img-fluid" alt="Spicy">
+                <div class="carousel-caption  text-dark">
+                  <h2>Level 5 </h2>
+                  <h2> HOSPITAL</h2>
+
+                </div>
+              </div>
+
 
 
             </div>
@@ -153,13 +185,16 @@
 
 
         <div class="col-12 text-center">
-          <button type="button" class="btn btn-primary" id="carouselControl">Pause</button>
+          <button type="button" class="btn btn-danger js-carousel-pause">Select</button>
+
         </div>
 
 
 
 
       </div> <!-- end col -->
+
+      <hr class="featurette-divider my-5 ">
     </div> <!-- end row -->
     </div><!-- end container -->
 
@@ -184,20 +219,17 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-12 text-center mt-5">
+        <div class="col-12 text-center ">
 
 
 
 
 
 
-          <h1>Step 2.</h1>
-          <h1 class="">Choose Your Subscription</h1>
 
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, amet esse accusantium laboriosam suscipit
-            quidem quos
-            provident architecto. Autem possimus, dolores atque itaque vitae molestias laboriosam? Illum quis porro
-            quidem?</p>
+          <h2 class=" mb-3 ">Step 2. Choose Your Subscription</h2>
+
+          <p>Chose from our three amazing subscription options!</p>
 
         </div>
       </div> <!-- heading row -->
@@ -228,7 +260,7 @@
           <div class="card  h-100 ">
             <img class="card-img-top" src="images/3.jpg" alt="Three Pack">
             <div class="card-body px-4 px-md-5">
-              <h2>Three Pack </h2>
+              <h2>Sauce Boss </h2>
               <h4>$18.00/ Month</h4>
               <p class="card-text px-md-5 px-lg-0">One's company three's a party!<br> Get three sauces delivered to perk
                 up
@@ -368,6 +400,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
       crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
   </body>
 
 </html>
