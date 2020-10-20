@@ -2,7 +2,8 @@
 body{
   overflow-x:hidden;
   font-family: 'Arvo', serif;
-  color:#545454;
+  /* color:#545454; */
+  color:rgb(64, 39, 38)!important;
 }
 
 .container-fluid{
@@ -19,7 +20,7 @@ body{
 
 .text-dark{
  
-  color:#545454!important;
+  color:rgb(64, 39, 38)!important;
 }
 
 
@@ -39,7 +40,7 @@ h3{
 }
 
 .bg-red{
-  background-color:#e73416;
+  background-color:#d22900
 }
 
 
@@ -49,6 +50,12 @@ heading{
   font-family: 'Raleway', sans-serif;
   font-weight: 900;
 }
+
+
+.btn-danger {
+    color: #fff;
+    background-color: #c83a00;
+  }
 
 /* 
 hr {
@@ -76,7 +83,7 @@ nav .navbar-brand img {
 
 
 .nav-link{
-  color:#e00016!important;
+  color:#c83a00!important;
 }
 
 .nav-link:hover {
