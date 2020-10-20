@@ -68,10 +68,11 @@ hr {
   text-align: center;
 }
 
- /* .navbar-brand img{
-  height:3rem;
- } */
 
+
+nav .navbar-brand img {
+   max-width: 50px;
+    }
 
 
 .nav-link{
