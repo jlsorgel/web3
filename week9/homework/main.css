@@ -1,0 +1,187 @@
+body{
+  font-family: 'Abel', sans-serif;
+   font-size: 60px;
+   text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5em;
+}
+
+
+
+nav{
+  text-align:center;
+  max-width:950px;
+  margin:auto;
+  padding:20px 25px 20px 25px;
+background: rgb(217,235,239);
+background: linear-gradient(0deg, rgba(217,235,239,1) 27%, rgba(213,202,190,0.8) 69%, rgba(183,112,92,0.34779122830772935) 89%, rgba(174,101,77,0) 100%);
+  
+  /* background: rgb(217,235,239);
+background: linear-gradient(0deg, rgba(217,235,239,1) 27%, rgb(213 202 190) 82%, rgba(183,112,92,0.5858864664029675) 100%, rgba(174,101,77,1) 100%); */
+}
+
+ .nav{
+      display:inline;
+      
+      
+ }
+
+  li{
+    text-decoration: none;
+    list-style-type: none;
+
+        display: inline;
+        margin:auto;
+       
+  }
+  ul a {
+     
+      text-decoration: none;
+       color:black;
+      border-bottom: 3px solid  rgba(183,112,92,0.34779122830772935);
+      font-size: 60px;
+      /* transition: border-bottom-color 800ms, background-color 1500ms; */
+       transition: border-bottom-color 800ms, color 1500ms;
+      /* float: right; */
+   
+    }
+
+    ul a:hover {
+      /* border-bottom-color: hotpink;
+      background-color: aliceblue; */
+      color:white;
+      border-bottom-color: white;
+
+    }
+
+
+
+
+
+
+
+
+/* GRID  */
+
+
+.wrapper img{
+  width:100%;
+  /* height:500px; */
+}
+
+.wrapper {
+display: grid;
+grid-gap: 10px;
+grid-template-columns: 1fr 1fr ;
+max-width:950px;
+margin: 0 auto;
+background-color:  rgba(217,235,239,1);
+padding-right:25px;
+padding-left:25px;
+
+
+}
+
+
+.two {
+grid-column: 1/2 ;
+grid-row: 1;
+}
+.three {
+grid-column: 2/3 ;
+grid-row: 1 ;
+}
+
+.four {
+grid-column: 1/2;
+grid-row: 2;
+}
+.five {
+grid-column: 2/3;
+grid-row: 2;
+}
+
+.six {
+grid-column: 1/3;
+grid-row: 3;
+}
+
+.one{
+grid-column: 1 / 3;
+grid-row: 4;
+}
+
+
+
+/* image effects */
+
+.logo{
+  color: black;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+
+
+
+.two {
+ 
+  transition: width 2s, height 2s, transform 2s;
+}
+.two:hover {
+  /* width: 300px; */
+  
+  transform: translateY(-200px);
+}
+
+.three {
+ 
+  transition: width 2s, height 2s, transform 2s;
+}
+.three:hover {
+  /* width: 300px; */
+  
+  transform: translateY(200px);
+}
+
+
+
+.four {
+ 
+  transition: width 2s, height 2s, transform 2s;
+}
+.four:hover {
+  /* width: 300px; */
+  
+  transform: translateX(200px);
+}
+
+
+.five {
+ 
+  transition: width 2s, height 2s, transform 2s;
+}
+.five:hover {
+  /* width: 300px; */
+  
+  transform: translateY(-200px);
+}
+
+
+
+
+
+
+
+.one {
+ 
+  transition: width 2s, height 2s, transform 2s;
+}
+.one:hover {
+  /* width: 300px;
+  height: 300px; */
+  transform: rotate(360deg);
+}
+
+
