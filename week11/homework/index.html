@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    body {
+      margin: 0;
+      text-align: center;
+    }
+
+    canvas {
+      border: 1px solid black;
+      margin: 50px;
+    }
+
+    .container {
+      text-align: center;
+    }
+  </style>
+
+</head>
+
+<body>
+
+
+  <canvas id="Game" width="800" height="600">
+    This part needs a newer browser
+  </canvas>
+
+  <div class="container">
+    <form action="" method="get">
+
+      <label for"redSlider>Red</label>
+      <input type="range" min="0" max="255" id="redSlider">
+
+      <label for"greenSlider>Green</label>
+      <input type="range" min="0" max="255" id="greenSlider">
+
+      <label for"blueSlider>Blue</label>
+      <input type="range" min="0" max="255" id="blueSlider">
+    </form>
+    <p style="text-align:center">#<span id="clicks"></span></p>
+  </div>
+
+
+  <script src="canvas.js"></script>
+</body>
+
+</html>

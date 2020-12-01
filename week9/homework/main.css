@@ -40,7 +40,7 @@ background: linear-gradient(0deg, rgba(217,235,239,1) 27%, rgb(213 202 190) 82%,
      
       text-decoration: none;
        color:black;
-      border-bottom: 3px solid  rgba(183,112,92,0.34779122830772935);
+    
       font-size: 60px;
       /* transition: border-bottom-color 800ms, background-color 1500ms; */
        transition: border-bottom-color 800ms, color 1500ms;
@@ -52,7 +52,7 @@ background: linear-gradient(0deg, rgba(217,235,239,1) 27%, rgb(213 202 190) 82%,
       /* border-bottom-color: hotpink;
       background-color: aliceblue; */
       color:white;
-      border-bottom-color: white;
+      border-bottom: 3px solid white;
 
     }
 
@@ -116,11 +116,6 @@ grid-row: 4;
 
 
 /* image effects */
-
-.logo{
-  color: black;
-  transition: width 2s, height 2s, background-color 2s, transform 2s;
-}
 
 
 

@@ -1,0 +1,100 @@
+body{
+  background:#333;
+  color:white;
+  font-family: Andale Mono, monospace;
+  font-size: 100px;
+}
+
+
+img{
+  width:100%;
+}
+
+.loader{
+  padding-top: 1000px;;
+  text-align: center;
+  
+}
+
+
+.loader::after{
+  content: '\2026';
+  display:inline-block;
+  overflow: hidden;
+  vertical-align: bottom;
+  animation: dots steps(4,end) 2s infinite;
+  width:0px;
+}
+
+@keyframes dots {
+  to {
+    width: 1.25em;
+  }
+}
+
+
+/* .box2{
+  background: white;
+  width:300px;
+  height: 300px;
+  position:relative;
+  margin:auto;
+  top:200px;
+  transition-property:background, border-radius ;
+  transition-duration: 3s;
+}
+
+.box2:hover{
+  background:red;
+  border-radius: 50%;
+}
+ */
+
+
+
+
+
+.box{
+  background: white;
+  width:400px;
+  height: 400px;
+  padding: 20px;
+  margin:auto;
+  position:relative;
+  animation-name: myanimation;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction:alternate;
+  animation-timing-function: ease-out ;
+  animation-fill-mode: forwards;
+  /* margin-top: 500px; */
+  /* animation-delay:2s; */
+  
+}
+       
+@keyframes myanimation {
+  0%{background-color: rgb(255, 0, 0); left: 0px; top: 0px; border-radius:0 0 0 0;} 
+
+  10%{background-color: rgb(255, 153, 0); left:1200px; top:0px; border-radius:50% 0 0 0;}
+
+  20%{background-color: rgb(255, 238, 0); 
+  left:1200px; top:900px; border-radius:50% 50% 0 0;}
+
+  30%{background-color: rgb(94, 255, 0); 
+  left:0px; top:900px; border-radius:50% 50% 50% 0;}
+
+  40%{background-color: rgb(4, 255, 242); top:0px; left:0px; border-radius:50% 50% 50% 50%;}
+
+  50%{background-color: rgb(6, 43, 255); left: -1200px; top: 0px; border-radius:0 0 0 0;} 
+
+  60%{background-color: rgb(98, 0, 255); left:-1200px; top:900px; border-radius:50% 0 0 0;}
+
+  80%{background-color: rgb(253, 0, 169); 
+  left:0px; top:900px; border-radius:50% 50% 0 0;}
+ /* 80%{background-color: rgb(255, 0, 128); 
+  left:0px; top:900px; border-radius:50% 50% 50% 0;} */
+
+  100%{background-color: rgb(255, 2, 2); top:0px; left:0px; border-radius:50% 50% 50% 50%;}
+}
+
+
