@@ -1,0 +1,212 @@
+
+
+img{
+  width:100%;
+}
+
+
+
+
+body {
+  font-family: orpheuspro, serif;
+  font-weight: 400;
+  background-color:#FFF5F0;
+
+
+}
+
+.nav-link {
+
+font-size: 0.80rem;
+ letter-spacing: 0.05em;
+
+
+text-transform: uppercase;
+font-weight: normal;
+
+}
+
+
+p {
+  
+font-family: garamond-premier-pro-display, serif;
+font-weight: 300;
+font-style: normal;
+color: #757575;
+/* font-size: 16px; */
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: orpheuspro, serif;
+  font-weight: 400;
+  /* line-height: 1.5; */
+}
+
+h2{
+  text-transform: uppercase;
+}
+
+
+
+ol, ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a, a:focus, a:hover {
+    text-decoration: none;
+    outline: 0;
+    color: #000
+}
+
+
+/* .container-fluid{
+  margin:0!important;
+  padding:0!important;
+
+} */
+
+
+
+/* HOME- CAROUSEL SECTION */
+
+.carousel-image {
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+
+  }
+
+/* footer !!!*/
+
+footer{
+background-color: #bd85531a;
+ /* background-color:#bd855324;  */
+}
+.social-media li {
+  display: inline-block;
+}
+
+.footer .footer-menu li{
+   display:inline-block;
+}
+
+
+
+
+
+
+/* CATERGORY SECTION */
+
+
+.category-box {
+  background-size: cover;
+  /* margin-bottom: 30px; */
+  /* min-height: 350px; */
+  max-height:805px;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+
+/* .category-box.category-box-2 {
+  min-height: 730px;
+} */
+
+
+.category-box:hover img {
+  transform: scale(1.1);
+}
+
+.category-box img {
+  transition: all 0.3s ease-in-out;
+  width: 100%;
+  height: auto;
+ 
+}
+
+/* .category-box a {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+} */
+
+.category-box .content {
+  position: absolute;
+  z-index: 999;
+  top: 0;
+  padding: 25px;
+}
+
+ .category-box-2 .content-2 {
+  position: absolute;
+  z-index: 999;
+  top: 0;
+  
+}
+
+/* @media (max-width: 768px) {
+  .category-box .content {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SHOPPING PAGE SHOPPING PAGE */
+.btn:hover {
+    cursor: pointer;
+    background: #bd85531a;
+}
+
+
+.btn{
+    /* display: inline-block;
+    padding: 0px 25px;
+    height: 45px;
+    line-height: 43px;
+    text-align: center;
+    font-size: 12.5px;
+     letter-spacing: 0.1em; 
+    background: white;
+    border: 1px solid black;
+    color: black;
+     font-weight: 600; 
+    margin-top: 4px;
+    opacity: 1;
+    visibility: visible; */
+        /* display: inline-block; */
+    padding: 5px 50px;
+    /* height: 45px; */
+    /* line-height: 43px; */
+    /* text-align: center; */
+    font-size: 12.5px;
+    /* letter-spacing: 0.1em; */
+    background: white;
+    border: 1px solid black;
+    color: black;
+
+    transition: all 0.4s ease-in-out;}
+
