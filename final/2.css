@@ -15,16 +15,7 @@ body {
 
 }
 
-.nav-link {
 
-font-size: 0.80rem;
- letter-spacing: 0.05em;
-
-
-text-transform: uppercase;
-font-weight: normal;
-
-}
 
 
 p {
@@ -36,15 +27,23 @@ color: #757575;
 /* font-size: 16px; */
 }
 
+p.lead{
+   color:#222222;
+}
+
+
+
 
 
 h1, h2, h3, h4, h5, h6 {
   font-family: orpheuspro, serif;
   font-weight: 400;
+  color:#222222;
+ 
   /* line-height: 1.5; */
 }
 
-h2{
+h1, h2, h3{
   text-transform: uppercase;
 }
 
@@ -62,23 +61,66 @@ a, a:focus, a:hover {
     color: #000
 }
 
+.bg-light {
+    background-color: #fff5f0!important;
+}
 
-/* .container-fluid{
-  margin:0!important;
-  padding:0!important;
+.nav-link {
 
-} */
-
+font-size: 0.80rem;
+ letter-spacing: 0.05em;
 
 
-/* HOME- CAROUSEL SECTION */
+text-transform: uppercase;
+font-weight: normal;
 
-.carousel-image {
-    background-position: center;
-    background-size: cover;
-    height: 600px;
+}
 
-  }
+
+
+.btn:hover {
+    cursor: pointer;
+    background: #bd85531a;
+}
+
+
+.btn{
+    /* display: inline-block;
+    padding: 0px 25px;
+    height: 45px;
+    line-height: 43px;
+    text-align: center;
+    font-size: 12.5px;
+     letter-spacing: 0.1em; 
+    background: white;
+    border: 1px solid black;
+    color: black;
+     font-weight: 600; 
+    margin-top: 4px;
+    opacity: 1;
+    visibility: visible; */
+        /* display: inline-block; */
+    padding: 5px 50px;
+    /* height: 45px; */
+    /* line-height: 43px; */
+    /* text-align: center; */
+    font-size: 12.5px;
+    /* letter-spacing: 0.1em; */
+    background: white;
+    border: 1px solid black;
+    color: black;
+    text-transform: uppercase;
+
+    transition: all 0.4s ease-in-out;}
+
+
+
+
+
+
+
+
+
 
 /* footer !!!*/
 
@@ -97,6 +139,16 @@ background-color: #bd85531a;
 
 
 
+
+
+/* HOME- CAROUSEL SECTION */
+
+.carousel-image {
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+
+  }
 
 
 /* CATERGORY SECTION */
@@ -175,38 +227,26 @@ background-color: #bd85531a;
 
 
 
-/* SHOPPING PAGE SHOPPING PAGE */
-.btn:hover {
-    cursor: pointer;
-    background: #bd85531a;
+/* SHOPPING PAGE SHOPPING PAGE !!!!!!!*/
+
+.card-text{
+  font-size: 2rem;
 }
 
 
-.btn{
-    /* display: inline-block;
-    padding: 0px 25px;
-    height: 45px;
-    line-height: 43px;
-    text-align: center;
-    font-size: 12.5px;
-     letter-spacing: 0.1em; 
-    background: white;
-    border: 1px solid black;
-    color: black;
-     font-weight: 600; 
-    margin-top: 4px;
-    opacity: 1;
-    visibility: visible; */
-        /* display: inline-block; */
-    padding: 5px 50px;
-    /* height: 45px; */
-    /* line-height: 43px; */
-    /* text-align: center; */
-    font-size: 12.5px;
-    /* letter-spacing: 0.1em; */
-    background: white;
-    border: 1px solid black;
-    color: black;
+.price{
+  font-size: 1.5rem;
+}
 
-    transition: all 0.4s ease-in-out;}
 
+
+
+    
+/* CONTACT PAGE CONTACT PAGE CONTACT!! */
+
+
+.jumbotron{
+  background-position: center;
+  background-size: cover;
+    
+}
