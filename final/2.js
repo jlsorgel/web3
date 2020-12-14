@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-  // pause/ play button on carousel
+  // carousel!
 
   $('.carousel').carousel({
     interval: 3000,
@@ -20,9 +20,24 @@ $(document).ready(function () {
     }
 
     carouselPaused = !carouselPaused;
+
   });
 
 
+  // cart!
+
+
+
+
+
+  $('.add-cart').click(function () {
+    $('.count').html(function (i, val) {
+      return val * 1 + 1
+    });
+  });
+
+
+
+
+
 });
-
-
