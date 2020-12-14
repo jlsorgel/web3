@@ -116,6 +116,15 @@ font-weight: normal;
 
 
 
+    .btn-left{
+    padding: 5px 0px 5px 0px;
+    border:none;
+    text-decoration: underline;
+    }
+
+
+
+
 
 
 
@@ -204,6 +213,30 @@ background-color: #bd85531a;
   
 }
 
+
+img.short-card{
+  max-height: 350px;
+}
+img.tall-card{
+  max-height: 750px;
+}
+
+img.md-card{
+  max-height: 509px;
+}
+
+@media(max-width:768px){
+  img.short-card{
+  max-height: 200px;
+}
+img.tall-card{
+  max-height: 850px;
+}
+
+img.md-card{
+  max-height: 800px;
+}
+}
 /* @media (max-width: 768px) {
   .category-box .content {
     top: 50%;
@@ -255,6 +288,12 @@ background-color: #bd85531a;
 .story-intro h4{
   line-height: 1.5;
 }
+
+hr.dotted {
+    border-top: 2px dotted #bd85531a;
+
+}
+
 
 
 
