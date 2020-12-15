@@ -78,6 +78,30 @@ font-weight: normal;
 margin: 0px 5px;
 
 }
+  ul a {
+     
+      text-decoration: none;
+       color:black;
+    
+      font-size: 60px;
+      /* transition: border-bottom-color 800ms, background-color 1500ms; */
+       transition:  color 1500ms;
+      /* float: right; */
+      transition: all .2s ease-in-out;
+   
+    }
+
+    ul a:hover {
+      /* border-bottom-color: hotpink;
+      background-color: aliceblue; */
+      color #c87549;
+      border-bottom: 3px solid #c87549;
+      transform: scale(1.1);
+
+    }
+
+
+
 
 
 
