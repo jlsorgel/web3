@@ -41,63 +41,56 @@
 
 
   <!-- NAVBAR NAVBAR NAVBAR -->
-  <div class="container mb-5">
-    <div class="row">
-      <div class="col-12">
-        <nav class="navbar navbar-expand-lg fixed-top bg-light ">
-          <a class="navbar-brand" href="#">
-            <h3>Azalée</h3>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top ">
+    <a class="navbar-brand" href="#">
+      <div class="container ">
+        <h3 class="my-0">Azalée</h3>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+      aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item ">
+          <a class="nav-link" href="index2.html">Home </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="shop.html">Shop</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="blog.html">Blog</a>
+        </li>
+
+        <li class="nav-item ">
+          <a class="nav-link" href="contact.html">About</a>
+        </li>
+
+
+      </ul>
+
+
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a href="cart.html" class="nav-link navbar-link-2 nav-shopping active">
+            <span id="cartCount" class=""></span>
+            <i class="fas fa-shopping-cart fa-lg pl-0"></i> Cart
+            <span class="count">0</span>
           </a>
-          <button class="navbar-toggler text-dark" type="button" data-toggle="collapse"
-            data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0 bg-light">
-              <li class="nav-item ">
-                <a class="nav-link" href="index2.html">Home </a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="shop.html">Shop</a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="blog.html">Blog</a>
-              </li>
-
-              <li class="nav-item active">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
-
-
-            </ul>
+        </li>
+      </ul>
 
 
 
-
-            <ul class="navbar-nav ml-auto">
-
-
-
-              <li class="nav-item">
-                <a href="cart.html" class="nav-link navbar-link-2 nav-shopping">
-                  <span id="cartCount" class=""></span>
-                  <i class="fas fa-shopping-cart fa-lg pl-0"></i> Cart
-                  <span class="count">0</span>
-                </a>
-              </li>
-            </ul>
-
-
-
-        </nav>
-      </div> <!-- /nav container -->
     </div>
-  </div>
+
+  </nav>
+  </div> <!-- /nav container -->
 
 
   <main>
@@ -113,7 +106,7 @@
 
 
     <section class="product-highlight">
-      <div class="container-fluid ">
+      <div class="container ">
         <div class="row">
 
 
@@ -219,7 +212,7 @@
     <!-- START related products section -->
 
 
-    <div class="container-fluid mb-3">
+    <div class="container mb-3">
       <!-- <section class="products related-products section  "> -->
       <div class="row">
 
@@ -236,11 +229,14 @@
           <div class="col-md-3">
 
             <div class="product-item">
-              <div class="product-thumb">
+              <a href="bodycream.html">
+                <div class="product-thumb">
 
-                <img class="img-responsive" src="images/1whitebodycream.jpeg" alt="product-img" />
 
-              </div>
+                  <img class="img-responsive" src="images/1whitebodycream.jpeg" alt="product-img" />
+
+                </div>
+              </a>
 
 
 
@@ -248,7 +244,7 @@
               <div class="product-content mt-3 mb-4">
                 <a href="bodycream.html">
 
-                  <h4>Body Cream -<span class="price"> $50</span>
+                  <h4>Body Cream -<span class="price"> $40</span>
                   </h4>
                 </a>
               </div>
@@ -259,15 +255,18 @@
 
           <div class="col-md-3">
             <div class="product-item">
-              <div class="product-thumb">
-                <img class="img-responsive" src="images/1productinflower.jpeg" alt="product-img" />
+              <a href="skincareproduct.html">
+                <div class="product-thumb">
 
-              </div>
+                  <img class="img-responsive" src="images/1productinflower.jpeg" alt="product-img" />
+
+                </div>
+              </a>
 
               <div class="product-content mt-3 mb-4">
-                <a href="dropper.html">
+                <a href="skincareproduct.html">
 
-                  <h4>Liquid Facelift -<span class="price"> $100</span>
+                  <h4>Skin Oil -<span class="price"> $30</span>
                   </h4>
                 </a>
               </div>
@@ -278,10 +277,12 @@
 
           <div class="col-md-3">
             <div class="product-item">
-              <div class="product-thumb">
-                <img class="img-responsive" src="images/1faceroller2.jpeg" alt="product-img" />
+              <a href="bodycream.html">
+                <div class="product-thumb">
+                  <img class="img-responsive" src="images/1faceroller2.jpeg" alt="product-img" />
 
-              </div>
+                </div>
+              </a>
               <div class="product-content mt-3 mb-4 px-md-5 px-lg-0">
 
                 <h4>Roller -<span class="price"> $80</span>
@@ -293,10 +294,12 @@
 
           <div class="col-md-3">
             <div class="product-item">
-              <div class="product-thumb">
-                <img class="img-responsive" src="images/4107232.jpg" alt="facespray" />
+              <a href="bodycream.html">
+                <div class="product-thumb">
+                  <img class="img-responsive" src="images/4107232.jpg" alt="facespray" />
 
-              </div>
+                </div>
+              </a>
               <div class="product-content mt-3 mb-4 px-md-4 px-lg-0">
                 <h4>Face Spray -<span class="price"> $25</span>
                 </h4>

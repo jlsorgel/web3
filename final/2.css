@@ -75,6 +75,7 @@ font-size: 0.80rem;
 
 text-transform: uppercase;
 font-weight: normal;
+margin: 0px 5px;
 
 }
 
@@ -277,7 +278,7 @@ font-size: 2rem;
 .jumbotron{
   background-position: center;
   background-size: cover;
-  padding: 2rem 1rem;
+  padding: 1rem 1rem;
     
 }
 
