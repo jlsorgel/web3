@@ -269,10 +269,11 @@
           <!-- Contact Form -->
           <div class="contact-form col-md-6 ">
             <h3>Get in Touch!</h3>
-            <form id="contact-form" method="post" action="" role="form">
+
+            <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
 
               <div class="form-group">
-                <input type="text" placeholder="Name" class="form-control" name="name" id="name">
+                <input type="text" placeholder="Name" class="form-control" name="fname" id="name">
               </div>
 
               <div class="form-group">
@@ -287,14 +288,20 @@
                 <textarea rows="6" placeholder="Message" class="form-control" name="message" id="message"></textarea>
               </div>
 
+              <div class="input-group-append">
+                <button type="submit" class="btn btn-secondary">Submit!</button>
+              </div>
 
 
             </form>
           </div>
+
+
           <!-- ./End Contact Form -->
 
 
 
+          <!-- ---------------------- -->
 
 
 
@@ -415,21 +422,22 @@
             </li>
           </ul>
 
-          <ul class="footer-menu my-4">
+          <ul class="footer-menu my-4 ">
             <li>
-              <a class="nav-link">CONTACT</a>
+              <a class="nav-link px-2 px-md-3" href="contact.html">CONTACT</a>
+
             </li>
 
             <li>
-              <a class="nav-link">FAQ</a>
+              <a class="nav-link px-0 px-md-3" href="contact.html">FAQ</a>
             </li>
 
             <li>
-              <a class="nav-link">SHIPPING</a>
+              <a class="nav-link px-0 px-md-3" href="contact.html">SHIPPING</a>
             </li>
 
             <li>
-              <a class="nav-link">Return Policy</a>
+              <a class="nav-link px-0 px-md-3" href="contact.html">Return Policy</a>
             </li>
 
           </ul>
@@ -470,7 +478,20 @@
 
 
   <script src="2.js"></script>
+  <script>
 
+    function validateForm() {
+      var x = document.forms["myForm"]["fname"].value;
+      if (x == "") {
+        alert("ERROR all values must be filled out!");
+        return false;
+      }
+    }
+
+
+
+
+  </script>
 
 
 </body>

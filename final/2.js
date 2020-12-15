@@ -77,17 +77,13 @@ $(document).ready(function () {
 
 
 
-  let form = document.getElementById('myForm');
-  form.addEventListener("submit", function (evt) {
-    if (form.checkValidity() === false) {
-      evt.preventDefault();
-      evt.stopPropagation();
-    }
-    form.classList.add('was-validated');
-  })
+  // let form = document.getElementById('myForm');
+  // form.addEventListener("submit", function (evt) {
+  //   if (form.checkValidity() === true) {
+
+  //   }
+  //   form.classList.add('was-validated');
+  // })
 
 
-
-
-
-});
+// });
