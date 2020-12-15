@@ -41,10 +41,18 @@ $(document).ready(function () {
 
   $("#checkOut").click(function () {
     $("#checkoutForm").show();
+    $(".btn-checkout").hide();
   });
 
+  $("#same-address").click(function () {
+    if ($(this).prop("checked") == true) {
+      console.log("Checkbox is checked.");
 
-  function Fillerup() {
+      Fillerup();
+    }
+
+  })
+  let Fillerup = function () {
 
     if (document.getElementById('same-address').checked) {
 

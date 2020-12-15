@@ -31,7 +31,9 @@ p.lead{
    color:#222222;
 }
 
-
+.text-orange{
+  color:#c87549;
+}
 
 
 
@@ -275,6 +277,7 @@ font-size: 2rem;
 .jumbotron{
   background-position: center;
   background-size: cover;
+  padding: 2rem 1rem;
     
 }
 
@@ -284,11 +287,13 @@ font-size: 2rem;
 }
 
 hr.dotted {
-    border-top: 2px dotted #bd85531a;
+    border-top: 2px dotted #bd85531c;
 
 }
 
-
+hr{
+  border-top:1px solid #bd855345;
+}
 
 
 
@@ -388,4 +393,8 @@ img.w-100{
 /* -------checkout form-------- */
 #checkoutForm{
     display:none;
+}
+
+.btn-checkout{
+  padding: 10px 75px;
 }
