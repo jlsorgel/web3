@@ -83,6 +83,30 @@ draw();
 
 
 
+canvas.addEventListener("click", function (event) {
+
+  let mouseXp = event.pageX - event.target.offsetLeft;
+  let mouseYp = event.pageY - event.target.offsetTop;
+
+  let distX = Math.abs(cPosX - mouseXp);
+  let distY = Math.abs(cPosY - mouseYp);
+
+  if (distX < cRad && distY < cRad) {
+    console.log(clicked);
+
+    if (!clicked) {
+      clicks += 1;
+      document.getElementById("clicks").innerHTML = clicks;
+    }
+
+    clicked = !clicked;
+
+    grow = !grow;
+  }
+});
+
+
+// ------------------------------
 let colorChange = function () {
   console.log("Red: " + rSlider.value + " Green: " + gSlider.value + "Blue: " + bSlider.value);
   cColor = "rgb(" + rSlider.value + ", " + gSlider.value + ", " + bSlider.value + ")";
