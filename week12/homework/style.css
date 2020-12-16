@@ -7,9 +7,12 @@ img{
 body{
   overflow:hidden; 
   font-family: 'Mountains of Christmas', cursive;
+  color:green!important;
 
-  
+
 }
+
+
 
 .navbar{
   background:rgba(0,0,0,.6)!important;
@@ -77,3 +80,8 @@ body{
   
 /* ------------------------ */
 
+.jumbotron {
+
+height:100vh!important;
+
+}
